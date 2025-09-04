@@ -1,7 +1,7 @@
 package hrsystem;
 import java.util.*;
 
-public class Employee extends HRSystem {
+public class Employee extends HRSystem { //W3 Schools,n.d.
     
     // Data Members
     public int employeeID;
@@ -182,7 +182,7 @@ public class Employee extends HRSystem {
         }
         
         // Display summary
-        System.out.println("\nSUMMARY:");
+        System.out.println("\nSUMMARY:");//deepSeek Ai, 2025
         System.out.println("Total Employees: " + employees.size());
         System.out.println("Total Annual Salary Budget: ZAR " + String.format("%,.2f", totalSalary));
         System.out.println("Average Salary: ZAR " + String.format("%,.2f", (totalSalary / employees.size())));
@@ -209,3 +209,15 @@ public class Employee extends HRSystem {
         return annualSalary;
     }
 }
+
+
+//References
+//Farrell, J., 2023. JAVA Programming. Boston: Cengage.
+//W3 Schools, n.d Java Inheritance (Subclass and Superclass).
+//Available at:
+//https:www.w3schools.com/java/java_inheritance.asp > [Accessed 3 September 2025].
+//W3 Schools, n.d. Java Switch. Available at:
+//https:www.w3schools.com/java/java_switch.asp [Accessed 3 September 2025]. DeepSeek AI, 2025. 
+//Example of Salary Calculation. Available at :
+//https:chat.deepseek.com/a/chat/s/233d5018-8cf9-47a2-9712-59fe8e7d904a > [Accessed 3 September 
+//2025].

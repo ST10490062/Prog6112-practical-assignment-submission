@@ -41,7 +41,7 @@ public class HRSystem {
                 }
 
                 // Menu code
-                switch (choice) {
+                switch (choice) { //W3 Schools, n.d
                     case 1:
                         employees.add(Employee.capture(input));
                         break;
