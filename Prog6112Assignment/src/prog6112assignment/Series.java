@@ -36,7 +36,7 @@ public static Series capture(Scanner input){
         System.out.println("Enter the series age restriction: ");
         String ageInput = input.nextLine();
         
-        try {
+        try { //W3 Schools
             int age = Integer.parseInt(ageInput);
             if (age >= 2 && age <= 18) {
                 SeriesAge = ageInput;
@@ -181,3 +181,9 @@ public static Series capture(Scanner input){
         return SeriesNumberOfEpisodes;
     }
 }
+
+//References
+
+//Farrell, J., 2023. JAVA Programming. Boston: Cengage.
+//W3 Schools, n.d. Java Exceptions - Try...Catch. Available at: https:www.w3schools.com/java/java_try_catch.asp > [Accessed 3 September 2025].
+//W3 Schools, n.d. Java Switch. Available at: https:www.w3schools.com/java/java_switch.asp [Accessed 3 September 2025].

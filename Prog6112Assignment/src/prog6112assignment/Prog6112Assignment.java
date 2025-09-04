@@ -17,7 +17,7 @@ public class Prog6112Assignment {
         System.out.println("Latest Series - 2025");
         System.out.println("*".repeat(20) + "\n");
         //menu loop 
-        while (true) {
+        while (true) { //Farrell, J (2023)
             System.out.println("Enter 1 to launch menu or any other key to exit.");
             menuInput = input.nextLine();
 
@@ -41,7 +41,7 @@ public class Prog6112Assignment {
 
                 }
 
-                //menu code
+                //menu code //W3 Schools
                 switch (choice) {
                     case 1:
                         mySeries.add(Series.capture(input));
